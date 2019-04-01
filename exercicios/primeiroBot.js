@@ -14,7 +14,7 @@ bot.startPolling()
 bot.on('text', async (ctx, next) => {
     const first_name = ctx.update.message.from.first_name
     if(first_name == 'Regina'){
-        await ctx.reply(`Oi o Raphael pediu pra te avisar que vc é o amor da vida dele ♥`)
+        await ctx.reply('Oi o Raphael pediu pra te avisar que vc é o amor da vida dele ♥')
     }else{
         await ctx.reply('Mid 1')
     }
