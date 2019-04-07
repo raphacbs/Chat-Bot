@@ -7,4 +7,8 @@ bot.start(ctx => {
     ctx.reply(`Seja bem vindo, ${nome}! \nAvise de precisar de /ajuda`)
 })
 
-bot.command('ajuda', ctx => ctx.reply(''))
+bot.command('ajuda', ctx => ctx.reply('/ajuda: vou mostrar as opções'
++'\n/ajuda2: para testar via hears'
++'\n/ajuda'))
+
+bot.startPolling()
